@@ -1,0 +1,86 @@
+*{
+    padding: 0px;
+    margin: auto;
+    font-size: 14px;
+    text-align: center;
+    font-family: "Century Gothic";
+}
+body{
+    background-color: aliceblue;
+}
+.container-fluid{
+    max-width: 1024px;
+}
+.navigation{
+       background-image: url('../images/eggs-grace.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    padding: 15px;
+    color: white;
+    background-blend-mode: darken; 
+}
+.navigation ul{
+    overflow: hidden;
+}
+
+.navigation ul>li{
+    list-style-type: none;
+    display: inline;
+    float: right;  
+    margin-right: 5px;
+}
+.navigation ul>li>a:hover{
+    color:green;
+}
+.navigation ul>li:first-of-type{
+    float: left;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.navigation ul>li>a{
+    text-decoration: none;
+    color: white;
+    
+}
+.header{
+    font-weight: bolder;
+      padding-top: 100px
+}
+.header>h2{
+    font-size: 30px;
+    max-width: 400px;
+    letter-spacing: 0.5px;
+}
+.header>a{
+    text-decoration: none;
+    color: white;
+    margin:35px auto;
+    display: block;
+    border: 1px solid white;
+    max-width: 80px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.info{
+   padding: 10px 15px 20px 15px; 
+    
+}
+.info>h3{
+        display: inline-block;
+    
+}
+.info>p{
+    margin:10px;
+}
+
+
+.footer a{
+    text-decoration: none;
+    color: green;
+    
+}
+address{
+    padding-top: 60px;
+}
